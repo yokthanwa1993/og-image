@@ -88,7 +88,16 @@ export async function GET(request: NextRequest) {
     const fontId = searchParams.get("font") || "noto-sans-thai";
     const outputFormat = searchParams.get("output") || "image";
 
-    const fontName = FONT_MAP[fontId] || "Noto Sans Thai";
+    // Support both predefined font IDs and custom Google Font names
+    // Examples: font=kanit, font=Roboto, font=Open+Sans
+    let fontName: string;
+    if (FONT_MAP[fontId]) {
+      // Use predefined mapping
+      fontName = FONT_MAP[fontId];
+    } else {
+      // Treat as direct Google Font name (replace + with space)
+      fontName = fontId.replace(/\+/g, " ");
+    }
     const fontFamily = fontName.replace(/ /g, "+");
 
     // Auto-scale font size based on text length
