@@ -33,6 +33,13 @@ const FONTS = [
   { id: "taviraj", name: "Taviraj" },
   { id: "thasadith", name: "Thasadith" },
   { id: "trirong", name: "Trirong" },
+  // Additional Thai Fonts
+  { id: "chonburi", name: "Chonburi" },
+  { id: "itim", name: "Itim" },
+  { id: "koho", name: "KoHo" },
+  { id: "pattaya", name: "Pattaya" },
+  { id: "playpen-sans-thai", name: "Playpen Sans Thai" },
+  { id: "sriracha", name: "Sriracha" },
 ];
 
 const FREEIMAGE_API_KEY = "6d207e02198a847aa98d0a2a901485a5";

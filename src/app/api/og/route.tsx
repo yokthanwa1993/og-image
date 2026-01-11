@@ -123,6 +123,31 @@ const FONT_URLS: Record<string, { url: string; name: string }> = {
     url: "https://fonts.gstatic.com/s/trirong/v17/7r3DqXNgp8wxdOdOlzAN_a4.ttf",
     name: "Trirong",
   },
+  // Additional Thai Fonts
+  "chonburi": {
+    url: "https://fonts.gstatic.com/s/chonburi/v14/8AtqGs-wOpGRTBq66IWa.ttf",
+    name: "Chonburi",
+  },
+  "itim": {
+    url: "https://fonts.gstatic.com/s/itim/v16/0nknC9ziJOYewAQ.ttf",
+    name: "Itim",
+  },
+  "koho": {
+    url: "https://fonts.gstatic.com/s/koho/v18/K2FxfZ5fmddNPpUxWJ4.ttf",
+    name: "KoHo",
+  },
+  "pattaya": {
+    url: "https://fonts.gstatic.com/s/pattaya/v18/ea8ZadcqV_zkHY-XNdA.ttf",
+    name: "Pattaya",
+  },
+  "playpen-sans-thai": {
+    url: "https://fonts.gstatic.com/s/playpensansthai/v8/VdG3AYIdG5kSgHwmKT9wYu2rs0cBsu-N7E_aclWp2hxLZRePow.ttf",
+    name: "Playpen Sans Thai",
+  },
+  "sriracha": {
+    url: "https://fonts.gstatic.com/s/sriracha/v16/0nkrC9D4IuYBgWcI9ObY.ttf",
+    name: "Sriracha",
+  },
 };
 
 // Load Thai font by ID
