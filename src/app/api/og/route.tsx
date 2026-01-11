@@ -70,9 +70,9 @@ async function getBrowser() {
   // For production (Vercel)
   return puppeteerCore.launch({
     args: chromium.args,
-    defaultViewport: chromium.defaultViewport,
+    defaultViewport: { width: 800, height: 1200 },
     executablePath: await chromium.executablePath(),
-    headless: chromium.headless,
+    headless: true,
   });
 }
 
