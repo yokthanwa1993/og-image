@@ -189,7 +189,7 @@ export async function GET(request: NextRequest) {
     }
 
     // Default: return image
-    return new Response(outputBuffer, {
+    return new Response(new Uint8Array(outputBuffer), {
       headers: {
         "Content-Type": "image/webp",
         "Cache-Control": "no-cache, no-store, must-revalidate",
