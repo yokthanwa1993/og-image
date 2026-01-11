@@ -115,7 +115,7 @@ export async function GET(request: NextRequest) {
       padding: 0;
       box-sizing: border-box;
     }
-    body {
+    html, body {
       width: 800px;
       height: 1200px;
       font-family: '${fontName}', sans-serif;
