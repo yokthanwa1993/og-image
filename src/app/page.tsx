@@ -3,12 +3,36 @@
 import { useState, useEffect } from "react";
 
 const FONTS = [
+  // Popular
   { id: "noto-sans-thai", name: "Noto Sans Thai" },
+  { id: "noto-serif-thai", name: "Noto Serif Thai" },
+  { id: "noto-sans-thai-looped", name: "Noto Sans Thai Looped" },
   { id: "sarabun", name: "Sarabun" },
   { id: "prompt", name: "Prompt" },
   { id: "kanit", name: "Kanit" },
   { id: "mitr", name: "Mitr" },
   { id: "chakra-petch", name: "Chakra Petch" },
+  // More Thai Fonts
+  { id: "anuphan", name: "Anuphan" },
+  { id: "athiti", name: "Athiti" },
+  { id: "bai-jamjuree", name: "Bai Jamjuree" },
+  { id: "charm", name: "Charm" },
+  { id: "charmonman", name: "Charmonman" },
+  { id: "fahkwang", name: "Fahkwang" },
+  { id: "ibm-plex-sans-thai", name: "IBM Plex Sans Thai" },
+  { id: "ibm-plex-sans-thai-looped", name: "IBM Plex Sans Thai Looped" },
+  { id: "k2d", name: "K2D" },
+  { id: "kodchasan", name: "Kodchasan" },
+  { id: "krub", name: "Krub" },
+  { id: "kulim-park", name: "Kulim Park" },
+  { id: "mali", name: "Mali" },
+  { id: "maitree", name: "Maitree" },
+  { id: "niramit", name: "Niramit" },
+  { id: "pridi", name: "Pridi" },
+  { id: "srisakdi", name: "Srisakdi" },
+  { id: "taviraj", name: "Taviraj" },
+  { id: "thasadith", name: "Thasadith" },
+  { id: "trirong", name: "Trirong" },
 ];
 
 const FREEIMAGE_API_KEY = "6d207e02198a847aa98d0a2a901485a5";

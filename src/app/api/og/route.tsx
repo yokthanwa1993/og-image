@@ -9,9 +9,18 @@ const FREEIMAGE_API_KEY = "6d207e02198a847aa98d0a2a901485a5";
 
 // Font URLs (Bold weight) - Direct TTF URLs from Google Fonts
 const FONT_URLS: Record<string, { url: string; name: string }> = {
+  // Popular Thai Fonts
   "noto-sans-thai": {
-    url: "https://fonts.gstatic.com/s/notosansthai/v25/iJWnBXeUZi_OHPqn4wq6hQ2_hbJ1xyN9wd43SofNWcd1MKVQt_So_9CdU5RtpzF-QRvzzXg.ttf",
+    url: "https://fonts.gstatic.com/s/notosansthai/v29/iJWnBXeUZi_OHPqn4wq6hQ2_hbJ1xyN9wd43SofNWcd1MKVQt_So_9CdU3NqpzE.ttf",
     name: "Noto Sans Thai",
+  },
+  "noto-serif-thai": {
+    url: "https://fonts.gstatic.com/s/notoserifthai/v28/k3kyo80MPvpLmixYH7euCxWpSMu3-gcWGj0hHAKGvUQlUv_bCKDUSzB5L0rFEORR.ttf",
+    name: "Noto Serif Thai",
+  },
+  "noto-sans-thai-looped": {
+    url: "https://fonts.gstatic.com/s/notosansthailooped/v16/B503F6pOpWTRcGrhOVJJ3-oPfY7WQuFu5R36MIjwurFMX_p0KVmQL3HnxYJ8hCVQ-_jKGRJi.ttf",
+    name: "Noto Sans Thai Looped",
   },
   "sarabun": {
     url: "https://fonts.gstatic.com/s/sarabun/v17/DtVmJx26TKEr37c9YK5sulw.ttf",
@@ -32,6 +41,87 @@ const FONT_URLS: Record<string, { url: string; name: string }> = {
   "chakra-petch": {
     url: "https://fonts.gstatic.com/s/chakrapetch/v13/cIflMapbsEk7TDLdtEz1BwkeJI9FQA.ttf",
     name: "Chakra Petch",
+  },
+  // More Thai Fonts
+  "anuphan": {
+    url: "https://fonts.gstatic.com/s/anuphan/v6/2sDBZGxYgY7LkLT0s2Yrm5UhuLoIZCn_8g4k.ttf",
+    name: "Anuphan",
+  },
+  "athiti": {
+    url: "https://fonts.gstatic.com/s/athiti/v14/pe0sMISdLIZIv1wAsDdyAg.ttf",
+    name: "Athiti",
+  },
+  "bai-jamjuree": {
+    url: "https://fonts.gstatic.com/s/baijamjuree/v13/LDIqapSCOBt_aeQQ7ftydoa05efukw.ttf",
+    name: "Bai Jamjuree",
+  },
+  "charm": {
+    url: "https://fonts.gstatic.com/s/charm/v14/7cHrv4oii5K0Md6TDss8.ttf",
+    name: "Charm",
+  },
+  "charmonman": {
+    url: "https://fonts.gstatic.com/s/charmonman/v20/MjQAmiR3vP_nuxDv47jiYC2HmL8.ttf",
+    name: "Charmonman",
+  },
+  "fahkwang": {
+    url: "https://fonts.gstatic.com/s/fahkwang/v18/Noa26Uj3zpmBOgbNpOIznZlR.ttf",
+    name: "Fahkwang",
+  },
+  "ibm-plex-sans-thai": {
+    url: "https://fonts.gstatic.com/s/ibmplexsansthai/v11/m8JMje1VVIzcq1HzJq2AEdo2Tj_qvLqEsvMFbQ.ttf",
+    name: "IBM Plex Sans Thai",
+  },
+  "ibm-plex-sans-thai-looped": {
+    url: "https://fonts.gstatic.com/s/ibmplexsansthailooped/v12/tss6AoJJRAhL3BTrK3r2xxbFhvKfyBB6l7hHT30L_K6vhFk.ttf",
+    name: "IBM Plex Sans Thai Looped",
+  },
+  "k2d": {
+    url: "https://fonts.gstatic.com/s/k2d/v13/J7aenpF2V0Ery4AJlA.ttf",
+    name: "K2D",
+  },
+  "kodchasan": {
+    url: "https://fonts.gstatic.com/s/kodchasan/v20/1cX0aUPOAJv9sG4I-DJeM1SggQ.ttf",
+    name: "Kodchasan",
+  },
+  "krub": {
+    url: "https://fonts.gstatic.com/s/krub/v11/sZlEdRyC6CRYZvo_KLE.ttf",
+    name: "Krub",
+  },
+  "kulim-park": {
+    url: "https://fonts.gstatic.com/s/kulimpark/v15/fdN49secq3hflz1Uu3IwjOIJwa4.ttf",
+    name: "Kulim Park",
+  },
+  "mali": {
+    url: "https://fonts.gstatic.com/s/mali/v13/N0bV2SRONuN4QJbhKlQ.ttf",
+    name: "Mali",
+  },
+  "maitree": {
+    url: "https://fonts.gstatic.com/s/maitree/v11/MjQDmil5tffhpBrklmWJWJE.ttf",
+    name: "Maitree",
+  },
+  "niramit": {
+    url: "https://fonts.gstatic.com/s/niramit/v12/I_urMpWdvgLdNxVLVQh_tig.ttf",
+    name: "Niramit",
+  },
+  "pridi": {
+    url: "https://fonts.gstatic.com/s/pridi/v15/2sDdZG5JnZLfkc0mjE0j.ttf",
+    name: "Pridi",
+  },
+  "srisakdi": {
+    url: "https://fonts.gstatic.com/s/srisakdi/v18/yMJWMIlvdpDbkB0A-gIAUghx.ttf",
+    name: "Srisakdi",
+  },
+  "taviraj": {
+    url: "https://fonts.gstatic.com/s/taviraj/v15/ahccv8Cj3ylylTXzRFIOd-k.ttf",
+    name: "Taviraj",
+  },
+  "thasadith": {
+    url: "https://fonts.gstatic.com/s/thasadith/v13/mtG94_1TIqPYrd_f5R1gDGYw2A.ttf",
+    name: "Thasadith",
+  },
+  "trirong": {
+    url: "https://fonts.gstatic.com/s/trirong/v17/7r3DqXNgp8wxdOdOlzAN_a4.ttf",
+    name: "Trirong",
   },
 };
 
